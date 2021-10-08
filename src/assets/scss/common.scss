@@ -1,0 +1,40 @@
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+.el-row {
+  margin-bottom: 200px;
+  &:first-child {
+    margin-top:20px;
+  }
+  &:last-child {
+    margin-bottom: 80px;
+  }
+}
+.el-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  padding: 0;
+  margin: 0;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+img {
+  width: 100%;
+}
+/* 반응형 시작 */
+@media (max-width: 750px) {
+  .container {
+    width: 100%;
+  }
+}
